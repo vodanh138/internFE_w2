@@ -1,0 +1,64 @@
+
+.todo_item{
+  display: flex;
+  align-items: center;
+}
+
+#todo-form{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#todo-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#add-todo {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s
+}
+
+#add-todo:hover {
+  background-color: #0056b3;
+}
+
+.com_item {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: rgb(144, 238, 144);
+  justify-content: center;
+}
+
+.com_item:hover {
+  background-color: rgb(149, 216, 149);
+}
+
+
+.uncom_item {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: coral;
+  justify-content: center;
+}
+
+.uncom_item:hover {
+  background-color: rgb(212, 123, 90);
+} 
