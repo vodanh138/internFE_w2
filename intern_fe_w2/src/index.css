@@ -41,6 +41,7 @@
   border-radius: 15px;
   background-color: rgb(144, 238, 144);
   justify-content: center;
+  width: 100%;
 }
 
 .com_item:hover {
@@ -57,8 +58,39 @@
   border-radius: 15px;
   background-color: coral;
   justify-content: center;
+  width: 100%;
 }
 
 .uncom_item:hover {
   background-color: rgb(212, 123, 90);
 } 
+
+.rm_btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.item_con{
+  display: flex;
+  align-items: center;
+}
+
+.ad_btn{
+  height: 23px;
+  cursor: pointer;
+}
+
+.edit-input {
+  font-size: 16px;
+  margin: 13.5px;
+  border-radius: 10px;
+}
+
+.save_btn, .cancel_btn {
+  cursor: pointer;
+}
+
+.no_btn, .yes_btn{
+  cursor: pointer;
+}
